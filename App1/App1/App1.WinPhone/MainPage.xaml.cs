@@ -10,15 +10,15 @@ using Microsoft.Phone.Shell;
 
 namespace App1.WinPhone
 {
-	public partial class MainPage : global::Xamarin.Forms.Platform.WinPhone.FormsApplicationPage
-	{
-		public MainPage ()
-		{
-			InitializeComponent ();
-			SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
+    public partial class MainPage : global::Xamarin.Forms.Platform.WinPhone.FormsApplicationPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+            SupportedOrientations = SupportedPageOrientation.PortraitOrLandscape;
 
-			global::Xamarin.Forms.Forms.Init ();
-			LoadApplication (new App1.App ());
-		}
-	}
+            global::Xamarin.Forms.Forms.Init();
+            LoadApplication(new App1.App());
+        }
+    }
 }
